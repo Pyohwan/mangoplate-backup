@@ -30,7 +30,8 @@ public class MangoplateBackupRunner implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
 
         if (! args.containsOption("backupFile")) {
-            throw new RuntimeException("input mangoplate backup csv file");
+            System.out.println("input mangoplate backup csv file");
+            return;
         }
 
         String backupFilePath = args.getOptionValues("backupFile").stream().findFirst().get();
