@@ -22,4 +22,5 @@ $ java -jar mangoplate-backup-0.0.1-SNAPSHOT.jar --backupFile=[reviews.csv path]
 
 심지어 HttpClient에서 retry를 했음에도 불구하고 이렇게 에러가 뜨며 프로그램이 종료되는 경우도 있습니다. 이럴 경우에는 작업 중이었던 음식점 디렉터리 지우고 다시 시작하면 됩니다.
 ## 블로그 글 링크
-TBD
+진행 과정을 적어놨습니다.
+https://blog.naver.com/saenggeuri/223234094047
